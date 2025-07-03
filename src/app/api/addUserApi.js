@@ -1,5 +1,5 @@
 import axios from "axios";
-
+// add users api
 export default async function addUserApi(data, toast) {
   return  new Promise(async (resolve, reject) => {
   console.log(data, 'api data................');
