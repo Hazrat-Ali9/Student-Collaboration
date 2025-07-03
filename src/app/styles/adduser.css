@@ -1,0 +1,265 @@
+.main_con {
+    width: 95%;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 12px;
+    opacity: 1;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.info_div {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "Product Sans", sans-serif;
+    letter-spacing: 0.6px;
+    color: #222222;
+}
+
+.info_text {
+    background: #F3F3F3;
+    border-radius: 4px;
+    padding: 15px 20px;
+    
+}
+
+/*  */
+/* singup and login css */
+
+  
+
+  /* Form group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  .form-label {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Input fields */
+  .form-input {
+    width: 100% !important;
+    padding: 12px;
+    color: #333; 
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 12px;
+    background: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    height: 30px;
+  }
+
+  .form-select {
+    width: 100% !important;
+    /* padding: 12px; */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    height: 30px;
+  }
+  
+  .form-input:focus {
+    border-color: #888; /* Soft grey color */
+    box-shadow: 0 0 5px rgba(136, 136, 136, 0.5); /* Light grey shadow */
+  }
+  
+  /* Red label color when there's an error */
+  .error-label {
+    color: red;
+    /* font-weight: bold; */
+  }
+  
+  /* Red border for input fields with errors */
+  .error-input {
+    border: 1px solid red;
+    background-color: #ffe6e6;
+  }
+  
+  /* Red asterisk for required fields */
+  .error-asterisk {
+    color: red;
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  
+  /* Submit Button */
+  .create-button {
+    width: 100px;
+    background: #fe8062;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .create-button:hover {
+    background: #d66145;
+  }
+  
+  
+  .mt {
+    margin-top: 10px;
+  }
+  
+  .form-flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+  }
+
+  .flex-grow-1 {
+    flex: 1; 
+  max-width: 50%;
+
+  }
+
+  .form-input::placeholder {
+    color: gray; 
+    font-size: 10px; 
+    opacity: 0.7;
+  }
+
+  .form-select {
+    font-size: 12px;
+    color: #333; 
+    padding-left: 5px;
+  }
+
+  /* Style the dropdown options */
+.form-select option {
+    font-size: 12px;
+    color: #333; 
+    background-color: white;
+    padding: 10px;
+  }
+  
+
+/* Style selected option */
+.form-select option:checked {
+    background-color: #e97c61;
+    color: white;
+    font-weight: bold;
+  }
+
+  /* image flex css */
+
+  .upload-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    /* width: 300px; */
+    text-align: center;
+    margin-bottom: 9px;
+  }
+  
+  .upload-text {
+    font-size: 14px;
+    color: #344054;
+    font-size: 14px;
+    display: flex;
+    align-self: flex-start;
+  }
+  
+  .image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+  }
+  
+  .dummy-image {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .image-preview {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .selected-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+  
+  .button-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .upload-btn {
+    background-color: #fe8062;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .upload-btn:hover {
+    background-color: #ea6544;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .cancel-btn {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-self: flex-start;
+  }
+  
+
+  @media (max-width: 990px) {
+    .form-flex-row {
+        flex-direction: column;
+    }
+    .flex-grow-1 {
+        width: 100%;
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+  }
+  
+ 
+  
+
+   

@@ -1,0 +1,74 @@
+.create-group-card {
+    background-color: #ff7a59;
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.4s ease-out;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .create-group-card h2 {
+    font-size: 1.4rem;
+    margin-bottom: 6px;
+  }
+  
+  .create-group-card p {
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-row input {
+    flex: 1;
+    padding: 6px 12px; /* Decrease padding to reduce the height */
+    border-radius: 8px;
+    border: none;
+    font-size: 0.9rem; /* Reduce font size to make the input appear smaller */
+    outline: none;
+    color: #333;
+    height: 35px;
+  }
+  
+  
+  .input-row button {
+    background-color: #fff;
+    color: #ff7a59;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 35px;
+  }
+  
+  .input-row button:hover {
+    background-color: #ffe5de;
+  }
+  
+  .icon {
+    font-size: 0.8rem;
+  }
+  
+  /* Animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

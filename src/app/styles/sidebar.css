@@ -1,0 +1,101 @@
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  background: transparent linear-gradient(180deg, #fe8062 0%, #7b2713 100%) 0% 0% no-repeat border-box;
+  box-shadow: 3px 0px 10px #0000000d;
+  padding: 20px;
+  z-index: 1000; /* ensures it stays above other content */
+ 
+}
+  
+  .sidebar h2 {
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 0;
+    padding-left: 15px;
+  }
+  
+  .sidebar a:hover {
+    background: #ea846a;
+    border-radius: 10px;
+  }
+
+  /* side bar animation */
+  /* .sidebar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.05); 
+  }
+  
+  
+  .sidebar a:hover {
+    background-color: #ffe5de;
+    color: #7b2713; 
+    transform: translateX(8px); 
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  } */
+  
+  .logo_row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px 40px 10px;
+  }
+
+  .logo_image {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .logo_image:hover {
+    transform: scale(1.2); /* Scales the image to 110% of its original size */
+  }
+  
+  
+  .logo_text {
+    font-size: 20px;
+    /* font-weight: bold; */
+    line-height: 25px;
+  }
+  
+  .notification {
+    position: relative;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

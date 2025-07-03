@@ -1,0 +1,111 @@
+.about-wrapper {
+    font-family: 'Segoe UI', sans-serif;
+    background: #ffffff;
+    padding: 10px 20px;
+    animation: fadeIn 0.7s ease-out;
+  }
+  /* 🌬️ Floating Animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0px); }
+  }
+  .about-hero {
+    text-align: center;
+    margin-bottom: 50px;
+    
+  }
+  
+  .about-hero h1 {
+    font-size: 42px;
+    color: #7b3624;
+    margin-bottom: 10px;
+  }
+  
+  .about-hero p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .about-section {
+    color: #ffffff;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    /* background-color: white; */
+    border-radius: 14px;
+    padding: 30px 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    background:  linear-gradient(180deg, #e37256 0%, #e6927d 100%) 0% 0% no-repeat border-box;
+    animation: float 4s ease-in-out infinite;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .about-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.18);
+  }
+  
+  .about-section h2 {
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
+  
+  .about-section p {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .about-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  
+  .about-list li {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-list li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: #ffffff;
+  }
+  
+  .about-cta {
+    text-align: center;
+    background: linear-gradient(180deg, #ff8769 0%, #7b3624 100%);
+  }
+  
+  .about-btn {
+    background: #ffffff;
+    color: #7b3624;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .about-btn:hover {
+    background: #7b3624;
+    color: #fff;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

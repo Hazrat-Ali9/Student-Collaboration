@@ -1,0 +1,192 @@
+.modal-body {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .card-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .card-front {
+    flex: calc((100% - 3rem) / 2);
+    border: 3px solid #70707066;
+    border-radius: 1.3rem;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    max-width: 350px;
+  }
+  .card-back {
+    flex: calc((100% - 3rem) / 2);
+    border: 3px solid #70707066;
+    border-radius: 1.3rem;
+    box-sizing: border-box;
+    padding-top: 1rem;
+  }
+
+  .card-holder {
+    margin: 0 auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px dashed #707070;
+    border-radius: 5px;
+    opacity: 0.15;
+    width: 46px;
+    height: 6px;
+    margin-bottom: 0.5rem;
+  }
+
+  .logo-image-div {
+    display: flex;
+    justify-content: center;
+    /* border-radius: 20px; */
+    padding-bottom: 10px;
+  }
+
+  .profile-image-div {
+    display: flex;
+    justify-content: center;
+    background: #ffedf1 0% 0% no-repeat padding-box;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+
+  .name-div {
+    background: #FE8062 0% 0% no-repeat padding-box;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+.name-div h3 {
+    color: #FFFFFF;
+}
+
+.name-div p {
+    color: #FFFFFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+.card-details-row {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-keys {
+    color: #707787;
+    font-size: 10px;
+    line-height: 15px;
+}
+.detail-values {
+    color: #344054;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.36px;
+}
+
+/* card back side  */
+.card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 350px;
+}
+.imp-text {
+    color: #2E2F30;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.imp-text-details {
+    padding: 0px 20px;
+}
+
+.imp-text-details p {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: #344054;
+}
+.qr-code-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.found-div {
+    box-sizing: border-box;
+    background: #FE8062 0% 0% no-repeat padding-box;
+    width: 100%;
+    align-items: center;
+    padding: 12px;
+    opacity: 1;
+    border-radius: 0px 0px 20px 20px;
+    /* margin-top: 30px; */
+    text-align: center;
+}
+
+.found-div p {
+    color: #FFFFFF;
+    font-size: 11px;
+    letter-spacing: 0.30px;
+    line-height: 14px;
+}
+
+/* pdf button */
+.download-btn-pdf {
+    background-color: #fd8369;
+    font-size: 12px;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: box-shadow 0.3s ease;
+    display: none;
+  }
+
+  .download-btn-pdf:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  }
+
+  .pdf-btn-con {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }

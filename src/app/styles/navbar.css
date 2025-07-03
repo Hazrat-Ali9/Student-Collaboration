@@ -1,0 +1,119 @@
+.navbar {
+    height: 65px;
+    padding: 15px 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.nav_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_text {
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.pie_image {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%; /* Ensures a circular effect */
+}
+
+.pie_image:hover {
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.6); /* Grey outer glow */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.email_profile_row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.name_text {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: #0E1B42;
+    text-align: right;
+}
+
+.email_text {
+    color: #707787;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+/* Notification Icon */
+.notification {
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+  
+  /* Profile Icon */
+  .profile-icon {
+    font-size: 28px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .profile-icon:hover {
+    color: #f1c40f;
+  }
+
+
+  /* Dropdown Menu */
+.dropdown-menu {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 180px;
+    z-index: 2;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu ul li {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dropdown-menu ul li:hover {
+    background: #f1f1f1;
+  }
+  
+  .dropdown-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+  

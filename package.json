@@ -1,0 +1,41 @@
+{
+  "name": "student-collaboration",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx next dev  -H 0.0.0.0 -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.6.0",
+    "axios": "^1.9.0",
+    "chart.js": "^4.4.9",
+    "dayjs": "^1.11.13",
+    "framer-motion": "^12.10.5",
+    "moment": "^2.30.1",
+    "next": "^15.3.2",
+    "next-redux-wrapper": "^8.1.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^5.5.0",
+    "react-qr-code": "^2.0.15",
+    "react-redux": "^9.2.0",
+    "react-toastify": "^11.0.5",
+    "react-transition-group": "^4.4.5",
+    "react-use-audio-recorder": "^0.4.2",
+    "redux-persist": "^6.0.0",
+    "socket.io-client": "^4.8.1",
+    "sweetalert2": "^11.6.13",
+    "sweetalert2-react-content": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.0"
+  }
+}

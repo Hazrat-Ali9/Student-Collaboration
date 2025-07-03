@@ -1,0 +1,117 @@
+.contact-wrapper {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 10px 20px 50px 20px;
+    /* background: linear-gradient(180deg, #fff5f2 0%, #fff1ec 100%); */
+    animation: fadeIn 0.8s ease;
+    /* min-height: 100vh; */
+  }
+  
+  .contact-hero {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: floatIn 1.2s ease;
+  }
+  
+  .contact-hero h1 {
+    font-size: 42px;
+    color: #7b3624;
+  }
+  
+  .contact-hero p {
+    font-size: 18px;
+    color: #a14934;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .contact-form,
+  .contact-info {
+    background: linear-gradient(160deg, #e37256 0%, #d2765e 100%);
+    padding: 20px 35px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    animation: floatIn 1.5s ease;
+    color: #fff;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+    color: #fff;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+  }
+  
+  .contact-form button {
+    background-color: #7b3624;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #5e281c;
+  }
+  
+  .contact-info h3 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes floatIn {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
