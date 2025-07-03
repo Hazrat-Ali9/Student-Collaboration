@@ -1,5 +1,5 @@
 "use client";
-
+// update password
 import "../../../auth.css";
 import { useForm } from "react-hook-form";
 import { useState,useEffect } from "react";
