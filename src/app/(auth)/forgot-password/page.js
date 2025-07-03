@@ -1,5 +1,5 @@
 "use client";
-
+// Forget Password page
 import "../../auth.css";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
