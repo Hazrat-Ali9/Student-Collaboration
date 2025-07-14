@@ -1,5 +1,5 @@
 import axios from "axios";
-
+// delete user api
 export default async function deleteUserApi(id, toast) {
     try {
         const token = localStorage.getItem('token');
