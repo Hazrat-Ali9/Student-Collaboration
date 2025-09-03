@@ -1,5 +1,5 @@
 import axios from "axios";
-
+// Forgot api
 export default async function forgotApi(data, toast, router, setTimeout) {
   try {
     const email = data?.email;
